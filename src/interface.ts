@@ -4,7 +4,7 @@ export interface Ilivro {
   id_pessoa: number;
   descricao: string;
   preco: number;
-  ano: Date;
+  ano: number;
   id_editora: number;
   id_genero: number;
   estoque: number;
@@ -39,7 +39,6 @@ export interface Ialuguel {
   status: string;
   vencimento: Date;
   inicio: Date;
-  emiteMensagem(): void;
 }
 
 export interface Iretorna {
